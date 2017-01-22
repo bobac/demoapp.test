@@ -1,0 +1,1 @@
+json.array! @utf_items, partial: 'utf_items/utf_item', as: :utf_item

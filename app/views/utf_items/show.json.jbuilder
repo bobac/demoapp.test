@@ -1,0 +1,1 @@
+json.partial! "utf_items/utf_item", utf_item: @utf_item

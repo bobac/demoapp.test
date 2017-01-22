@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @utf_item.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @utf_item.description %>
+</p>
+
+<%= link_to 'Edit', edit_utf_item_path(@utf_item) %> |
+<%= link_to 'Back', utf_items_path %>
