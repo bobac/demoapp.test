@@ -4,7 +4,7 @@ lock "3.7.1"
 set :stage, :production
 
 # Replace 127.0.0.1 with your server's IP address!
-server '35.157.64.231', user: 'deploy', roles: %w{web app db}
+server 'demoapp.bobac.net', user: 'deploy', roles: %w{web app db}
 
 #set :application, "my_app_name"
 #set :repo_url, "git@example.com:me/my_repo.git"
